@@ -1,0 +1,6 @@
+admin_user 
+eeoWSNyjemf0vSvC
+mongodb+srv://admin_user:eeoWSNyjemf0vSvC@cluster0.ryobh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+git branch -M main
+git remote add origin https://github.com/VerumSuperbia/Assignment5.git
+git push -u origin main
