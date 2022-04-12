@@ -4,7 +4,7 @@ const express = require('express');
 const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 const Port = 8000;
 const app = express();
-app.set('views', path.join(process.cwd() + '/views'));
+app.set('views', './views');
 app.set('view engine', 'ejs');
 app.use(express.static(path.join(process.cwd() + '/public')));
 app.use(express.json());
