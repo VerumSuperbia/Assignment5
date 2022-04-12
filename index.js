@@ -49,7 +49,7 @@ app.get('/task',(req,res)=>{
             res.status(500).json({ err: err });
             return;
         }
-        res.status(200).render(__dirname + '\\index.ejs', {collection:items});
+        res.status(200).render('index', {collection:items});
     });
 });
 app.post('/task',(req,res)=>{
